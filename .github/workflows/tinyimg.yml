@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with:
-          ref: ${{ GITHUB_HEAD_REF }}
+          ref: ${{ github.head_ref }}
       - name: Tinify Image Action
         uses: namoscato/action-tinify@v1.3.2
         with:
