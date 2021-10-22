@@ -27,3 +27,4 @@ jobs:
         uses: namoscato/action-tinify@v1.3.2
         with:
           api_key: 4f2m8pcQNkdGLTB7cY1x2QQwdmdgTBYZ
+          github_token: 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
