@@ -2,13 +2,12 @@ name: image
 on:
   pull_request:
     paths:
-      - '*'
+      - '**'
 jobs:
   compress:
     runs-on: ubuntu-latest
     steps:
-      - name: Tinify Image Action
-      - uses: namoscato/action-tinify@v1.3.2
+      - uses: namoscato/action-tinify@v1
         with:
           api_key: 4f2m8pcQNkdGLTB7cY1x2QQwdmdgTBYZ
           github_token: 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
