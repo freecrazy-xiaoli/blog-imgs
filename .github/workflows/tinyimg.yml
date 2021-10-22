@@ -24,5 +24,5 @@ jobs:
       - name: Tinify Image Action
         uses: namoscato/action-tinify@v1.3.2
         with:
-          api_key: 5hC7N3klRd0gBybQV2HCMg2D9ZZYHLjh
-          github_token: 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
+          api_key: ${{ secrets.TINIFY_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
